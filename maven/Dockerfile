@@ -6,8 +6,5 @@ ENV MVN_REPO_PASSWORD ""
 RUN env
 COPY ./environment /home/sunshower/$PROJECT_NAME
 WORKDIR /home/sunshower/$PROJECT_NAME
-RUN mvn \
---settings=settings/settings.xml \
-clean install deploy
+ENTRYPOINT mvn clean install deploy --settings=settings/settings.xml 
 
-ENTRYPOINT /bin/bash
