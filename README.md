@@ -17,3 +17,7 @@ docker push sunshower/sunshower-base:$VERSION
 FROM sunshower/sunshower-base:$VERSION
 # your dockerfile (maven and gradle installed)
 ```
+
+### Build Status
+
+[![Build Status](https://semaphoreci.com/api/v1/josiahhaswell/environment/branches/frapper/badge.svg)](https://semaphoreci.com/josiahhaswell/environment)
