@@ -13,13 +13,13 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  <!--<modules>-->
-    <!--<module>environment</module>-->
-    <!--<module>external-dependencies</module>-->
-    <!--<module>testing-dependencies</module>-->
-    <!--<module>sunshower-dependencies</module>-->
-    <!--<module>persistence-dependencies</module>-->
-  <!--</modules>-->
+  <modules>
+    <module>environment</module>
+    <module>external-dependencies</module>
+    <module>testing-dependencies</module>
+    <module>sunshower-dependencies</module>
+    <module>persistence-dependencies</module>
+  </modules>
   <distributionManagement>
     <repository>
       <id>sunshower-repo</id>

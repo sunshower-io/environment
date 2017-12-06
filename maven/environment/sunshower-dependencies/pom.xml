@@ -16,35 +16,35 @@
         <relativePath>../</relativePath>
     </parent>
     <properties>
-        <sunshower-arcus.version>1.0.0-SNAPSHOT</sunshower-arcus.version>
-        <sunshower-maelstrom.version>1.0.0-SNAPSHOT</sunshower-maelstrom.version>
-        <sunshower-barometer.version>1.0.0-SNAPSHOT</sunshower-barometer.version>
+        <!--<sunshower-arcus.version>1.0.0-SNAPSHOT</sunshower-arcus.version>-->
+        <!--<sunshower-maelstrom.version>1.0.0-SNAPSHOT</sunshower-maelstrom.version>-->
+        <!--<sunshower-barometer.version>1.0.0-SNAPSHOT</sunshower-barometer.version>-->
     </properties>
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>io.sunshower.arcus</groupId>
-                <artifactId>bom-exported</artifactId>
-                <version>${sunshower-arcus.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>io.sunshower.arcus</groupId>-->
+                <!--<artifactId>bom-exported</artifactId>-->
+                <!--<version>${sunshower-arcus.version}</version>-->
+                <!--<type>pom</type>-->
+                <!--<scope>import</scope>-->
+            <!--</dependency>-->
 
-            <dependency>
-                <groupId>io.sunshower.maelstrom</groupId>
-                <artifactId>bom-exported</artifactId>
-                <version>${sunshower-maelstrom.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>io.sunshower.maelstrom</groupId>-->
+                <!--<artifactId>bom-exported</artifactId>-->
+                <!--<version>${sunshower-maelstrom.version}</version>-->
+                <!--<type>pom</type>-->
+                <!--<scope>import</scope>-->
+            <!--</dependency>-->
 
-            <dependency>
-                <groupId>io.sunshower.barometer</groupId>
-                <artifactId>bom-exported</artifactId>
-                <version>${sunshower-barometer.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>io.sunshower.barometer</groupId>-->
+                <!--<artifactId>bom-exported</artifactId>-->
+                <!--<version>${sunshower-barometer.version}</version>-->
+                <!--<type>pom</type>-->
+                <!--<scope>import</scope>-->
+            <!--</dependency>-->
 
         </dependencies>
     </dependencyManagement>
