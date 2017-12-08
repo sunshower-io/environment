@@ -28,6 +28,8 @@ ENV MAVEN_HOME=/opt/build/tools/maven/apache-maven-$MAVEN_VERSION/bin
 COPY ./docker/scripts/run-bash.sh /run-bash.sh
 RUN chmod +x /run-bash.sh
 
+COPY maven/environment/settings/settings.xml /root/.m2/settings.xml
+
 
 
 # Configure path
