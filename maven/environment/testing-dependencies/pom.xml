@@ -26,10 +26,17 @@
     <junit-platform-launcher.version>1.0.1</junit-platform-launcher.version>
     <jaxrs-api.version>2.1</jaxrs-api.version>
     <hibernate-api.version>1.0.0.Final</hibernate-api.version>
+    <api-guardian.version>1.0.0</api-guardian.version>
   </properties>
   <dependencyManagement>
     <dependencies>
-
+      <dependency>
+        <groupId>org.apiguardian</groupId>
+        <artifactId>apiguardian-api</artifactId>
+        <version>${api-guardian.version}</version>
+        <scope>test</scope>
+      </dependency>
+      
       <dependency>
         <groupId>org.junit.platform</groupId>
         <artifactId>junit-platform-runner</artifactId>
