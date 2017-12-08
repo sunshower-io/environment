@@ -23,7 +23,6 @@
     <barometer.version>1.0.0-SNAPSHOT</barometer.version>
     <junit.vintage.version>4.12.1</junit.vintage.version>
     <hibernate-search.version>5.5.4.Final</hibernate-search.version>
-
     <junit-platform-launcher.version>1.0.1</junit-platform-launcher.version>
     <jaxrs-api.version>2.1</jaxrs-api.version>
     <hibernate-api.version>1.0.0.Final</hibernate-api.version>
